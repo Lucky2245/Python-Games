@@ -28,6 +28,9 @@ except:
             coin_side = tails()
        if ans == coin_side:
 	print("Correct!")
+	OTHER_GAMES = input("Want to play a different game? This will be a screen based game ")
+	if OTHER_GAMES == "Yes" or "yes":
+		import sleepingdragons
        else:
 	print("Wrong the correct answer was " + coin_side + " and not " + ans)
         print("Better luck next time")
