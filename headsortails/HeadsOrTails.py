@@ -14,6 +14,6 @@ else:
 	print("Wrong the correct answer was " + coin_side + " and not " + ans)
 	play_new_game = input("Want to play a new game?")
 	if play_new_game == "yes":
-		import new_game
+		import sleepingdragons
 	else:
 		print("Game Over")
