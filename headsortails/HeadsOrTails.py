@@ -14,7 +14,7 @@ try:
    else:
 		print("Wrong the correct answer was " + coin_side + " and not " + ans)
 		print("Better luck next time!")
-		games = input("Want to play a different game? This will be a screen based game")
+		games = input("Want to play a different game? This will be a screen based game ")
 		if games == "Yes" or "yes":
 			import sleepingdragons
 		else:
@@ -38,7 +38,7 @@ except:
        else:
 	print("Wrong the correct answer was " + coin_side + " and not " + ans)
         print("Better luck next time")
-	other_games = input("Want to play a different game? This will be a screen based game")  
+	other_games = input("Want to play a different game? This will be a screen based game ")
 	if other_games == "Yes" or "yes":
 		import sleepingdragons
 	else:
