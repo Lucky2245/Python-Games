@@ -14,15 +14,6 @@ else:
 	print("Wrong the correct answer was " + coin_side + " and not " + ans)
 	play_new_game = input("Want to play a new game?")
 	if play_new_game == "yes":
-		print("Loading new game")
-		def Correct_answer():
-		    return "Correct Answer!"
-		def Wrong_answer():
-		    return "Wrong answer!"
-	        question = input("What's 5+5")
-		if question == 10:
-			Correct_answer()
-		else:
-			Wrong_answer()
+		import new_game
 	else:
 		print("Game Over")
