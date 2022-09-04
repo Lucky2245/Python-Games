@@ -14,7 +14,11 @@ try:
    else:
 		print("Wrong the correct answer was " + coin_side + " and not " + ans)
 		print("Better luck next time!")
-		import sleepingdragons
+		games = input("Want to play a different game? This will be a screen based game")
+		if games == "Yes" or "yes":
+			import sleepingdragons
+		else:
+			print("Game over!")
 except:
        import random
        def heads():
