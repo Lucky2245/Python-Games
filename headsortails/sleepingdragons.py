@@ -1,1 +1,2 @@
-
+import pgzrun
+pgzrun.go()
