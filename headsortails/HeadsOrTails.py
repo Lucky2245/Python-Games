@@ -15,7 +15,7 @@ if ans == coin_side:
        import sleepingdragons
 else:
 	 print("Wrong the correct answer was " + coin_side + " and not " + ans)
+	 print("Better luck next time!")
 	 other_games = input("Want to play a different? This game will be a screen-based game")
 	 if other_games == "Yes" or "yes":
 	     import sleepingdragons
-	 print("Better luck next time!")
