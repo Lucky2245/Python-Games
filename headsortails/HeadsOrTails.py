@@ -8,7 +8,7 @@ if random.choice([True, False]):
    coin_side = tails()
 else:
 	 coin_side = heads()
-if ans < coin_side:
+if ans == coin_side:
    print("Correct \n")
    print("Game won!")
 else:
