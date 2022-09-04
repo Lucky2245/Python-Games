@@ -29,3 +29,4 @@ except:
           print("Correct!")
        else:
             print("Wrong the correct answer was " + coin_side + " and not " + ans)
+            print("Better luck next time")
