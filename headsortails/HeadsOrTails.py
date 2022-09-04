@@ -11,4 +11,9 @@ else:
 if ans == coin_side:
    print("Correct!")
 else:
-	 print("Wrong the correct answer was " + coin_side + " and not " + ans)
+	print("Wrong the correct answer was " + coin_side + " and not " + ans)
+	play_new_game = input("Want to play a new game?")
+	if play_new_game == "yes":
+		print("Loading new game")
+	else:
+		print("Game Over")
